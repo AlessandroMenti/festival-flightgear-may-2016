@@ -1,6 +1,6 @@
 <!-- Chubu Centrair Intl OpenRadar Routes
 By Jonathan Redpath
-Licence: GNU GPL 2.0 -->
+Licence: GNU GPL 2.0 or any later version -->
 
 
 <routes>
@@ -15,20 +15,20 @@ Licence: GNU GPL 2.0 -->
 			<activeStartRunways>18,36</activeStartRunways>
 			<navaids>KCC,KEC,CBE,ESPAN,FTAMI</navaids>
 			
-			<line start="RJGG-RW18" end="34.815416,136.817228" text="500" />
-			<intercept start="34.815416,136.817228" startHeading="176" endHeading="230" direction="right" end="7NM202@CBE" />
-			<line start="7NM202@CBE" end="9.5NM202@CBE" />
-			<line start="9.5NM202@CBE" end="FTAMI" text="ESPAN1" />
+				<line start="RJGG-RW18" end="34.815416,136.817228" text="500" />
+				<intercept start="34.815416,136.817228" startHeading="176" endHeading="230" direction="right" end="7NM202@CBE" />
+				<line start="7NM202@CBE" end="9.5NM202@CBE" />
+				<line start="9.5NM202@CBE" end="FTAMI" text="ESPAN1" />
 			
-			<line start="RJGG-RW36" end="34.898470,136.795936" text="500" />
-			<intercept start="34.898470,136.795936" startHeading="356" endHeading="260" direction="left" end="23NM213@KCC" />
-			<line start="23NM213@KCC" end="30.7NM213@KCC" text="ESPAN1 / CASTLE1 / FOREST1" />
-			<intercept start="30.7NM213@KCC" startHeading="213" end="9NM215@CBE" endHeading="110" direction="left" />
-			<intercept start="9NM215@CBE" startHeading="110" end="9.5NM202@CBE" endHeading="202" direction="right" />
+				<line start="RJGG-RW36" end="34.898470,136.795936" text="500" />
+				<intercept start="34.898470,136.795936" startHeading="356" endHeading="260" direction="left" end="23NM213@KCC" />
+				<line start="23NM213@KCC" end="30.7NM213@KCC" text="ESPAN1 / CASTLE1 / FOREST1" />
+				<intercept start="30.7NM213@KCC" startHeading="213" end="9NM215@CBE" endHeading="110" direction="left" />
+				<intercept start="9NM215@CBE" startHeading="110" end="9.5NM202@CBE" endHeading="202" direction="right" />
 			
-			<line start="FTAMI" end="ESPAN" text="ESPAN1" />
-			<line start="ESPAN" end="KEC" text="ESPAN1.KUSHIMOTO(KEC)" />
-			<screenText screenPos="-140,35" text="ESPAN 1 CROSS FTAMI @ 7000, ESPAN @ 14000"/>
+				<line start="FTAMI" end="ESPAN" text="ESPAN1" />
+				<line start="ESPAN" end="KEC" text="ESPAN1.KUSHIMOTO(KEC)" />
+				<screenText screenPos="-140,35" text="ESPAN 1 CROSS FTAMI @ 7000, ESPAN @ 14000"/>
 			</route>
 			
 			<!-- CASTLE 1 -->
