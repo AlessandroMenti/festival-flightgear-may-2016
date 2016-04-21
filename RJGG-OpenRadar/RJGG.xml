@@ -1,0 +1,151 @@
+<!-- Chubu Centrair Intl OpenRadar Routes
+By Jonathan Redpath
+Licence: GNU GPL 2.0 or any later version -->
+
+
+<routes>
+	<!-- SID -->
+		
+		<!-- ESPAN 1 -->
+
+		<addPoint code="FTAMI" point="18NM202@CBE"/>
+		<addPoint code="ESPAN" point="41.7NM202@CBE"/>
+				
+		<route name="ESPAN1" displayMode="sid" color="120,140,120">
+			<activeStartRunways>18,36</activeStartRunways>
+			<navaids>KCC,KEC,CBE,ESPAN,FTAMI</navaids>
+			
+				<line start="RJGG-RW18" end="34.815416,136.817228" text="500" />
+				<intercept start="34.815416,136.817228" startHeading="176" endHeading="230" direction="right" end="7NM202@CBE" />
+				<line start="7NM202@CBE" end="9.5NM202@CBE" />
+				<line start="9.5NM202@CBE" end="FTAMI" text="ESPAN1" />
+			
+				<line start="RJGG-RW36" end="34.898470,136.795936" text="500" />
+				<intercept start="34.898470,136.795936" startHeading="356" endHeading="260" direction="left" end="23NM213@KCC" />
+				<line start="23NM213@KCC" end="30.7NM213@KCC" text="ESPAN1 / CASTLE1 / FOREST1" />
+				<intercept start="30.7NM213@KCC" startHeading="213" end="9NM215@CBE" endHeading="110" direction="left" />
+				<intercept start="9NM215@CBE" startHeading="110" end="9.5NM202@CBE" endHeading="202" direction="right" />
+			
+				<line start="FTAMI" end="ESPAN" text="ESPAN1" />
+				<line start="ESPAN" end="KEC" text="ESPAN1.KUSHIMOTO(KEC)" />
+				<screenText screenPos="-140,35" text="ESPAN 1 CROSS FTAMI @ 7000, ESPAN @ 14000"/>
+			</route>
+			
+			<!-- CASTLE 1 -->
+			<route name="CASTLE1" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>KCC,CBE</navaids>
+				<intercept start="9NM215@CBE" startHeading="110" end="CBE" endHeading="18" direction="left" text="CASTLE1" />
+				<line start="CBE" end="KCC" text="CASTLE1" />
+				<line start="34.815416,136.817228" end="7NM181@CBE" />
+				
+				<screenText screenPos="-134,20" text="CASTLE1 / FOREST1 DEP CROSS CBE @ 7000"/>
+				
+				<intercept start="9NM215@CBE" end="0.5NM250@CBE" startHeading="320" endHeading="70" direction="right" text="CASTLE1 / FOREST1 / IKAROS1" />
+				<intercept start="0.5NM250@CBE" startHeading="70" end="0.5NM020@CBE" endHeading="20" direction="left" />
+				<intercept start="7NM181@CBE" end="9NM215@CBE" startHeading="183" endHeading="320" direction="right" />
+			</route>
+			
+			<!-- FOREST 1 -->
+			<route name="FOREST1" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>MORIZ,CBE</navaids>
+				<line start="0.5NM250@CBE" end="CBE" />
+				<line start="CBE" end="ANJYO" text="FOREST1" />
+				<line start="ANJYO" end="MORIZ" text="FOREST1 / MORIZ1" />
+			</route>
+			
+			<!-- HIKNE 1 -->
+			<route name="HIKNE1" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>HIKNE,CBE</navaids>
+				<bow center="0.5NM196@CBE" radius="3" startAngle="196" extentAngle="70" />
+				<curve start="3NM174@CBE" end="3.5NM196@CBE" controlPoint="34.798729,136.805726" />
+				<line start="3.7NM314@CBE" end="HIKNE" text="HIKNE1 / IKAROS1" />
+				<line start="34.839374,136.742104" end="34.881598,136.744005" />
+				<intercept start="34.881598,136.744005" startHeading="356" end="4NM314@CBE" endHeading="314" direction="left" />
+				<screenText screenPos="-132,05" text="HIKNE1 / IKAROS1 DEP CROSS HIKNE @ 7000"/>
+			</route>
+			
+			<!-- IKAROS 1 -->
+			<route name="IKAROS1" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<line start="3NM314@CBE" end="3.7NM314@CBE" />
+				<intercept start="3NM250@CBE" startHeading="70" end="3NM314@CBE" direction="left" endHeading="314" />
+			</route>
+			
+			<addPoint code="KOSEI" point="41.6NM113@YME" />
+			
+			<!-- IKAROS + HIKNE TRANS -->
+			<route name="IKAROS1 / HIKNE1 TRANSITION" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>HIKNE,YME,KOSEI,CUE</navaids>
+				<line start="HIKNE" end="CUE" text="OTSU TRANSITION" />
+				<line start="HIKNE" end="KOSEI" />
+				<line start="KOSEI" end="YME" text="MIYAZU TRANSITION" />
+			</route>
+			
+			<addPoint code="MODEL" point="32.9NM114@CBE" />
+			
+			<!-- MODEL 1 -->
+			<route name="MODEL1" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>MODEL,CBE</navaids>
+				<line start="34.815416,136.817228" end="13.6NM181@CBE" text="3500" />
+				<intercept start="13.6NM181@CBE" startHeading="181" end="16NM147@CBE" endHeading="40" direction="left" text="7000" />
+				<line start="16NM147@CBE" end="16NM120@CBE" text="MODEL1" />
+				<intercept start="16NM120@CBE" end="17NM114@CBE" startHeading="40" endHeading="114" direction="right" />
+				<line start="17NM114@CBE" end="MODEL" text="MODEL1" />
+				<screenText screenPos="-73,50" text="TRANSITION @ 14000"/>
+				<screenText screenPos="-115,65" text="MODEL1 DEP CROSS MODEL @ FL150"/>
+				
+				<intercept start="30.7NM213@KCC" startHeading="213" end="15NM114@CBE" endHeading="90" direction="left" text="MODEL1" />
+				<line start="15NM114@CBE" end="17NM114@CBE" />
+			</route>
+			
+			<addPoint code="ANJYO" point="17NM067@CBE" />
+			
+			<!-- MORIZ1 -->
+			<route name="MORIZ1" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>MORIZ,ANJYO</navaids>
+				<bow center="0.5NM196@CBE" radius="15.5" startAngle="180" extentAngle="-33" text="6000" />
+				<line start="15.8NM149@CBE" end="10NM70@CBE" text="MORIZ1 / NAGOYA4" />
+				<intercept start="10NM70@CBE" end="11NM67@CBE" startHeading="360" endHeading="67" direction="right" />
+				
+				<line start="34.815416,136.817228" end="12NM350@CBE" text="MORIZ1 / NAGOYA4" />
+				<bow center="CBE" radius="14" startAngle="360" extentAngle="50" text="MORIZ1" />
+				<intercept start="12NM350@CBE" end="14NM360@CBE" startHeading="350" endHeading="90" direction="right" />
+				<intercept start="14NM50@CBE" end="ANJYO" startHeading="150" endHeading="67" direction="left" />
+			</route>
+			
+			<!-- NAGOYA 4 -->
+			<route name="NAGOYA4" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>KCC,CBE</navaids>
+				<intercept start="12NM350@CBE" end="15NM360@CBE" startHeading="350" endHeading="45" direction="right" />
+				<line start="15NM360@CBE" end="KCC" text="NAGOYA4" />
+				<line start="10NM70@CBE" end="KCC" text="NAGOYA4" />
+			</route>
+			
+			<addPoint code="TSUGU" point="52.6NM67@CBE" />
+			<addPoint code="GOHEI" point="60NM28@KCC" />
+			<addPoint code="SOBAR" point="38NM28@KCC" />
+			<addPoint code="STRAW" point="60NM33@KCC" />
+			
+			<!-- Transitions -->
+			<route name="TRANSITIONS NORTH AND EAST" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>MODEL,ENSYU</navaids>
+				<line start="MODEL" end="ENSYU" text="ENSYU TRANSITION" />
+				<line start="MORIZ" end="TSUGU" text="CHAUS TRANSITION" />
+				<line start="TSUGU" end="CHAUS" text="CHAUS @ FL150" />
+				<line start="KCC" end="SOBAR" text="GOHEI TRANSITION" />
+				<line start="SOBAR" end="GOHEI" />
+				<line start="KCC" end="STRAW" text="KROBE TRANSITION" />
+				<line start="STRAW" end="KROBE" />
+				<screenText screenPos="-115,80" text="CHAUS TRANS CROSS CHAUS @ FL150"/>
+				<screenText screenPos="-115,95" text="GOHEI TRANS CROSS SOBAR @ FL200"/>
+				<screenText screenPos="-115,110" text="KROBE TRANS CROSS STRAW @ FL200"/>
+			</route>
+</routes>
