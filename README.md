@@ -24,6 +24,14 @@ Put each Route Manager file (`routemanager/ICAO.procedures.xml`) in
 `routemanager/LOWW.procedures.xml` in
 `$FG_SCENERY/Airports/L/O/W/LOWW.procedures.xml`).
 
+
+Getting charts
+--------------
+To get the aeronautical charts for the Festival, go to the [AIS Japan
+website](https://aisjapan.mlit.go.jp/) -- register (for free) and
+navigate to the AIP section.
+
+
 License
 --------
 
@@ -37,11 +45,6 @@ version.
 This data is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
 A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-
-Charts
---------
-https://aisjapan.mlit.go.jp/ -- register (free) and navigate to the AIP section for official charts
 
 You should have received a copy of the GNU General Public License along with
 this data; if not, write to the Free Software Foundation, Inc., 51 Franklin
