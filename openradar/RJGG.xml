@@ -25,7 +25,7 @@ Licence: GNU GPL 2.0 or later -->
 				<line start="23NM213@KCC" end="30.7NM213@KCC" text="ESPAN1 / CASTLE1 / FOREST1" />
 				<intercept start="30.7NM213@KCC" startHeading="213" end="9NM215@CBE" endHeading="110" direction="left" />
 				<intercept start="9NM215@CBE" startHeading="110" end="9.5NM202@CBE" endHeading="202" direction="right" />
-			
+				
 				<line start="FTAMI" end="ESPAN" text="ESPAN1" />
 				<line start="ESPAN" end="KEC" text="ESPAN1.KUSHIMOTO(KEC)" />
 				<screenText screenPos="-140,35" text="ESPAN 1 CROSS FTAMI @ 7000, ESPAN @ 14000"/>
@@ -281,6 +281,22 @@ Licence: GNU GPL 2.0 or later -->
 				<intercept start="11NM330@CBE" startHeading="330" end="15NM340@CBE" endHeading="60" radius="2" direction="right" />
 				<intercept start="2.2NM357@CBE" startHeading="177" end="34.913020,136.752000" endHeading="330" radius="0.5" direction="right" />
 				<intercept start="15NM350@CBE" end="POKER" direction="right" startHeading="85" endHeading="176" radius="1" />
+			</route>
+			
+			
+			<route name="RJNA boundary" displayMode="always" color="240,240,100">
+				<navaids>CBE</navaids>
+				<bow center="CBE" radius="11" startAngle="330" extentAngle="40" text="RJNA HANDOVER"/>
+			</route>
+			
+			<route name="Center boundary" displayMode="always" color="0,0,0">
+				<navaids>CBE</navaids>
+				<bow center="CBE" radius="35" startAngle="330" extentAngle="360" text="Center HANDOVER"/>
+			</route>
+			
+			<route name="KNE boundary" displayMode="always" color="0,0,0">
+				<navaids>KNE</navaids>
+				<bow center="KNE" radius="35" startAngle="330" extentAngle="360" text="Kansai"/>
 			</route>
 			
 			
