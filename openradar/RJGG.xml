@@ -1,6 +1,6 @@
 <!-- Chubu Centrair Intl OpenRadar Routes
 By Jonathan Redpath
-Licence: GNU GPL 2.0 or any later version -->
+Licence: GNU GPL 2.0 or later -->
 
 
 <routes>
@@ -11,9 +11,9 @@ Licence: GNU GPL 2.0 or any later version -->
 		<addPoint code="FTAMI" point="18NM202@CBE"/>
 		<addPoint code="ESPAN" point="41.7NM202@CBE"/>
 				
-		<route name="ESPAN1" displayMode="sid" color="120,140,120">
-			<activeStartRunways>18,36</activeStartRunways>
-			<navaids>KCC,KEC,CBE,ESPAN,FTAMI</navaids>
+			<route name="ESPAN1" displayMode="sid" color="120,140,120">
+				<activeStartRunways>18,36</activeStartRunways>
+				<navaids>KCC,KEC,CBE,ESPAN,FTAMI</navaids>
 			
 				<line start="RJGG-RW18" end="34.815416,136.817228" text="500" />
 				<intercept start="34.815416,136.817228" startHeading="176" endHeading="230" direction="right" end="7NM202@CBE" />
@@ -25,7 +25,7 @@ Licence: GNU GPL 2.0 or any later version -->
 				<line start="23NM213@KCC" end="30.7NM213@KCC" text="ESPAN1 / CASTLE1 / FOREST1" />
 				<intercept start="30.7NM213@KCC" startHeading="213" end="9NM215@CBE" endHeading="110" direction="left" />
 				<intercept start="9NM215@CBE" startHeading="110" end="9.5NM202@CBE" endHeading="202" direction="right" />
-			
+				
 				<line start="FTAMI" end="ESPAN" text="ESPAN1" />
 				<line start="ESPAN" end="KEC" text="ESPAN1.KUSHIMOTO(KEC)" />
 				<screenText screenPos="-140,35" text="ESPAN 1 CROSS FTAMI @ 7000, ESPAN @ 14000"/>
@@ -148,4 +148,157 @@ Licence: GNU GPL 2.0 or any later version -->
 				<screenText screenPos="-115,95" text="GOHEI TRANS CROSS SOBAR @ FL200"/>
 				<screenText screenPos="-115,110" text="KROBE TRANS CROSS STRAW @ FL200"/>
 			</route>
+			
+			
+			
+			
+		<!-- STAR -->
+		
+			<!-- NORTH ARC -->
+
+
+			<addPoint code="TRIKE" point="24NM105@CBE" />
+			<addPoint code="SLIDE" point="39NM55@CBE" />
+			<addPoint code="BIWAA" point="31NM307@CBE" />
+			
+			<route name="NORTH ARC" displayMode="star" color="240,100,100">
+				<activeLandingRunways>18</activeLandingRunways>
+				<navaids>CARDS,BIWAA,CHESS,SWING,SLIDE,TRIKE,QUEST,CBE</navaids>
+				
+				<loop navpoint="CARDS" inboundHeading="44" right="true" minHeight="8000" width="3" length="8" arrows="both"/>
+				<line start="CARDS" end="22NM224@CBE" text="NORTH ARC CARDS" />
+				
+				<loop navpoint="BIWAA" inboundHeading="127" right="true" minHeight="6000" width="3" length="8" arrows="both"/>
+				<line start="BIWAA" end="22NM307@CBE" text="NORTH ARC BIWAA" />
+				
+				<loop navpoint="CHESS" inboundHeading="159" right="true" minHeight="7000" width="3" length="8" arrows="both"/>
+				<line start="CHESS" end="22NM339@CBE" text="NORTH ARC CHESS" />
+				
+				<loop navpoint="TRIKE" inboundHeading="285" right="true" minHeight="7000" width="3" length="8" arrows="both"/>
+				
+				<loop navpoint="SLIDE" inboundHeading="235" right="true" minHeight="10000" width="3" length="8" arrows="both"/>
+				<line start="SLIDE" end="22NM55@CBE" text="NORTH ARC SLIDE" />
+				
+				<loop navpoint="SWING" inboundHeading="222" right="false" minHeight="9000" width="3" length="8" arrows="both"/>
+				<line start="SWING" end="22NM42@CBE" text="NORTH ARC SWING" />
+				
+				<bow center="CBE" radius="21" startAngle="230" extentAngle="121" />
+				<bow center="CBE" radius="21" startAngle="1" extentAngle="100" />
+				<intercept start="21NM351@CBE" startHeading="90" end="17NM356@CBE" radius="2" direction="right" endHeading="176" text="4100" />
+				<intercept start="21NM1@CBE" startHeading="270" end="17NM356@CBE" radius="2" direction="left" endHeading="176" />
+				<line start="17NM356@CBE" end="QUEST" text="QUEST@3500" />
+				<text position="21NM327@CBE" text="6000" />
+				<intercept start="22NM224@CBE" startHeading="44" end="21NM230@CBE" radius="1" direction="left" endHeading="320" />
+				<intercept start="22NM307@CBE" startHeading="127" end="21NM310@CBE" radius="1" direction="left" endHeading="45" />
+				<intercept start="22NM339@CBE" startHeading="159" end="21NM345@CBE" radius="1" direction="left" endHeading="80" />
+				<intercept start="TRIKE" startHeading="285" end="21NM100@CBE" radius="1" direction="right" endHeading="10" />
+				<intercept start="22NM55@CBE" end="21NM50@CBE" startHeading="235" endHeading="320" direction="right" radius="1" />
+				<intercept start="22NM42@CBE" end="21NM38@CBE" startHeading="222" endHeading="300" direction="right" radius="1" />
+			</route>
+			
+			<!-- SOUTH ARC -->
+			<route name="SOUTH ARC" displayMode="star" color="240,100,100">
+				<activeLandingRunways>36</activeLandingRunways>
+				<navaids>CARDS,BIWAA,CHESS,SWING,SLIDE,TRIKE,PROBE,CBE</navaids>
+				
+				<loop navpoint="CARDS" inboundHeading="44" right="true" minHeight="8000" width="3" length="8" arrows="both"/>
+				<line start="CARDS" end="22NM224@CBE" text="SOUTH ARC CARDS" />
+				
+				<loop navpoint="BIWAA" inboundHeading="127" right="true" minHeight="6000" width="3" length="8" arrows="both"/>
+				<line start="BIWAA" end="22NM307@CBE" text="SOUTH ARC BIWAA" />
+				
+				<loop navpoint="CHESS" inboundHeading="159" right="true" minHeight="7000" width="3" length="8" arrows="both"/>
+				<line start="CHESS" end="22NM339@CBE" text="SOUTH ARC CHESS" />
+				
+				<loop navpoint="TRIKE" inboundHeading="285" right="true" minHeight="7000" width="3" length="8" arrows="both"/>
+				
+				<loop navpoint="SLIDE" inboundHeading="235" right="true" minHeight="10000" width="3" length="8" arrows="both"/>
+				<line start="SLIDE" end="22NM55@CBE" text="SOUTH ARC SLIDE" />
+				
+				<loop navpoint="SWING" inboundHeading="222" right="false" minHeight="9000" width="3" length="8" arrows="both"/>
+				<line start="SWING" end="22NM42@CBE" text="SOUTH ARC SWING" />
+				
+				<bow center="CBE" radius="21" startAngle="45" extentAngle="122" />
+				<bow center="CBE" radius="21" startAngle="181" extentAngle="155" />
+				
+				<intercept start="TRIKE" startHeading="285" end="21NM110@CBE" radius="1" direction="left" endHeading="200" />
+				<intercept start="22NM224@CBE" startHeading="44" end="21NM220@CBE" radius="1" direction="right" endHeading="120" />
+				<intercept start="22NM307@CBE" startHeading="127" end="21NM302@CBE" radius="1" direction="right" endHeading="210" />
+				<intercept start="22NM339@CBE" startHeading="159" end="21NM336@CBE" radius="1" direction="right" endHeading="235" />
+				<intercept start="22NM55@CBE" end="21NM60@CBE" startHeading="235" endHeading="150" direction="left" radius="1" />
+				<intercept start="22NM42@CBE" end="21NM47@CBE" startHeading="222" endHeading="136" direction="left" radius="1" />
+				
+				<intercept start="21NM170@CBE" end="17NM176@CBE" startHeading="259" endHeading="356" direction="right" radius="3" />
+				<intercept start="21NM190@CBE" end="17NM176@CBE" startHeading="98" endHeading="356" direction="left" radius="3" />
+				<line start="17NM176@CBE" end="PROBE" text="PROBE@3500" />
+				
+				<text position="21NM208@CBE" text="6000" />
+				<text position="21NM124@CBE" text="5000" />
+				<text position="WILBA" text="3500" />
+				
+				<line start="PROBE" end="PIXIE" />
+				
+			</route>
+			
+			
+		<!-- MISAP + IAP -->
+			<route name="RWY36 MISAP" displayMode="star" color="100,100,240">
+				<activeLandingRunways>36</activeLandingRunways>
+				<navaids>WILBA,PROBE,CBE</navaids>
+				
+				<line start="RJGG-RW36" end="34.898470,136.795936" text="500" />
+				<bow center="34.890700,136.756500" radius="2" startAngle="266" extentAngle="180" />
+				<line start="34.884150,136.716720" end="6NM210@CBE" text="MISAP ILS Z 36" />
+				<line start="6NM210@CBE" end="11NM210@CBE" text="MISAP ILS Z 36 / VOR 36" />
+				
+				<bow center="CBE" radius="16.4" startAngle="182" extentAngle="20" />
+				<intercept start="11NM210@CBE" end="16.4NM202@CBE" startHeading="210" endHeading="120" radius="2" direction="left" />
+				<intercept start="16.4NM182@CBE" end="PROBE" startHeading="88" endHeading="360" radius="1" direction="left" />
+				
+				<loop navpoint="CBE" inboundHeading="180" arrows="both" minHeight="3000" length="5" width="3" />
+				<intercept start="34.843478,136.741159" end="34.851178,136.743264" direction="left" startHeading="50" endHeading="360" radius="1" />
+				<intercept start="6NM210@CBE" end="34.843478,136.741159" direction="right" startHeading="210" endHeading="50" radius="2" text="MISAP ILS Y 36" />
+				
+			</route>
+			
+			<addPoint code="PIXIE" point="11NM176@CBE" />
+			<addPoint code="POKER" point="11NM357@CBE" />
+			
+			<route name="VOR 36" displayMode="star" color="100,240,100">
+				<activeLandingRunways>36</activeLandingRunways>
+				<navaids>PIXIE,CBE</navaids>
+				<line start="PIXIE" end="2NM175@CBE" text="VOR 36" />
+			</route>
+			
+			<route name="VOR 18" displayMode="star" color="100,240,100">
+				<activeLandingRunways>18</activeLandingRunways>
+				<navaids>POKER,QUEST,CBE</navaids>
+				<line start="POKER" end="2.2NM357@CBE" text="VOR 18" />
+				
+				<bow center="CBE" radius="15" startAngle="340" extentAngle="10"/>
+				
+				<line start="4NM330@CBE" end="11NM330@CBE" text="MISAP ILS + VOR 18" />
+				<intercept start="11NM330@CBE" startHeading="330" end="15NM340@CBE" endHeading="60" radius="2" direction="right" />
+				<intercept start="2.2NM357@CBE" startHeading="177" end="34.913020,136.752000" endHeading="330" radius="0.5" direction="right" />
+				<intercept start="15NM350@CBE" end="POKER" direction="right" startHeading="85" endHeading="176" radius="1" />
+			</route>
+			
+			
+			<route name="RJNA boundary" displayMode="always" color="240,240,100">
+				<navaids>CBE</navaids>
+				<bow center="CBE" radius="11" startAngle="330" extentAngle="40" text="RJNA HANDOVER"/>
+			</route>
+			
+			<route name="Center boundary" displayMode="always" color="0,0,0">
+				<navaids>CBE</navaids>
+				<bow center="CBE" radius="35" startAngle="330" extentAngle="360" text="Center HANDOVER"/>
+			</route>
+			
+			<route name="KNE boundary" displayMode="always" color="0,0,0">
+				<navaids>KNE</navaids>
+				<bow center="KNE" radius="35" startAngle="330" extentAngle="360" text="Kansai"/>
+			</route>
+			
+			
+			<!-- the taxiways not in WED -->
 </routes>
