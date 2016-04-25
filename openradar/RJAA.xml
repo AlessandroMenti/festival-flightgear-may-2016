@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Missing fixes -->
+    <addPoint code="A4L11" point="N35°59'15.6'',E140°12'49.1''" />
+    <addPoint code="A4L12" point="N36°02'32.6'',E140°16'46.8''" />
+    <addPoint code="A4L13" point="N36°02'36.7'',E140°25'59.7''" />
+    <addPoint code="A4L14" point="N35°59'37.8'',E140°32'05.0''" />
+    <addPoint code="A4R21" point="N35°55'29.4'',E140°17'29.2''" />
+    <addPoint code="A4R22" point="N35°57'34.5'',E140°21'50.1''" />
+    <addPoint code="A4R23" point="N35°56'38.8'',E140°26'14.7''" />
+    <addPoint code="A4R24" point="N35°52'15.2'',E140°26'45.6''" />
+    <addPoint code="A6L21" point="N35°31'37.9'',E140°34'41.9''" />
+    <addPoint code="A6L22" point="N35°26'24.6'',E140°38'26.3''" />
+    <addPoint code="A6R11" point="N35°30'56.9'',E140°33'16.2''" />
+    <addPoint code="A6R12" point="N35°25'43.5'',E140°37'00.7''" />
+    <addPoint code="A6R13" point="N35°26'54.9'',E140°24'52.6''" />
+    <addPoint code="A6R14" point="N35°33'24.7'',E140°20'11.9''" />
+    <addPoint code="AA433" point="N35°44'38.5'',E140°17'00.8''" />
+    <addPoint code="AA631" point="N35°36'19.9'',E140°44'31.9''" />
+    <addPoint code="AA632" point="N35°44'46.7'',E140°38'28.9''" />
+    <addPoint code="ARWEN" point="N36°15'28.34'',E139°50'43.89''" />
+    <addPoint code="ARIESr" point="N35°56'07.38'',E140°15'05.88''" />
+    <addPoint code="ASPEN" point="N35°34'51.00'',E140°30'28.10''" />
+    <addPoint code="ASTRA" point="N35°52'07.10'',E140°18'00.20''" />
+    <addPoint code="ATAGO" point="N35°47'00.9'',E140°15'46.8''" />
+    <addPoint code="BEACH" point="N35°24'08.51'',E139°54'12.37''" />
+    <addPoint code="BEAMS" point="N35°35'33.00'',E140°31'53.10''" />
+    <addPoint code="BOXER" point="N35°52'13.00'',E140°19'51.60''" />
+    <addPoint code="CREEK" point="N35°56'43.36'',E140°16'35.64''" />
+    <addPoint code="CUPID" point="N35°29'30.25'',E141°05'57.26''" />
+    <addPoint code="DAITO" point="N35°21'53.56'',E140°30'39.03''" />
+    <addPoint code="GIMLI" point="N35°44'57.6'',E140°29'34.4''" />
+    <addPoint code="JELLY" point="N35°41'32.6'',E140°44'19.7''" />
+    <addPoint code="JYOSO" point="N36°16'46.4'',E139°51'09.5''" />
+    <addPoint code="KUJYU" point="N35°21'03.95,E140°27'19.84''" />
+    <addPoint code="MERCY" point="N35°03'24.83'',E140°31'20.87''" />
+    <addPoint code="METIS" point="N35°59'45.62'',E140°14'23.01''" />
+    <addPoint code="PEGAS" point="N35°51'26.3'',E140°33'02.1''" />
+    <addPoint code="PHLOX" point="N35°45'56.6'',E140°22'46.1''" />
+    <addPoint code="ROUSY" point="N35°22'24.04'',E140°56'40.35''" />
+    <addPoint code="SAMMY" point="N35°35'26.7'',E140°20'42.0''" />
+    <addPoint code="SOHSA" point="N35°40'31.74'',E140°37'47.70''" />
+    <addPoint code="TETRA" point="N35°46'26.37'',E140°15'55.78''" />
+    <addPoint code="TOADS" point="N36°02'49.27'',E140°10'13.47''" />
+    <!-- Ground -->
+    <!-- SIDs -->
+    <route name="AKAGI2" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>NRE,HKE,ARWEN,AKAGI,ARIESr,TOADS,CREEK,METIS</navaids>
+        <line start="RJAA-RW16R" end="14NM157@NRE" text="157°" />
+        <intercept startTurn="14NM157@NRE" startHeading="157" radius="2" direction="right" endHeading="358" end="NRE" />
+        <line start="RJAA-RW16L" end="15.4NM157@HKE" text="157°" />
+        <intercept startTurn="15.4NM157@HKE" startHeading="157" radius="2" direction="right" endHeading="358" end="NRE" text="358°" />
+        <line start="NRE" end="ARWEN" text="326°" />
+        <line start="RJAA-RW34L" end="ARIESr" text="336°" />
+        <line start="ARIESr" end="TOADS" text="336°" />
+        <intercept startTurn="TOADS" startHeading="336" radius="2" direction="left" endHeading="281" end="22NM326.2@NRE" text="281°" arrows="end" />
+        <line start="RJAA-RW34R" end="CREEK" text="337°" />
+        <line start="CREEK" end="METIS" text="337°" />
+        <intercept startTurn="METIS" startHeading="336" radius="2" direction="left" endHeading="281" end="18NM326.3@NRE" text="281°" arrows="end" />
+        <line start="ARWEN" end="AKAGI" text="AKAGI2, 326°" arrows="end" />
+        <restriction position="ARWEN" notabove="7000ft" />
+        <restriction position="ARIESr" notbelow="4000ft" />
+        <restriction position="CREEK" notbelow="4000ft" />
+    </route>
+    <route name="BEACH1" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>ASPEN,A6R12,KUJYU,BEACH,BEAMS,A6L22,ARIESr,A4L11,A4L12,A4L13,A4L14,PEGAS,GIMLI,SAMMY,BOXER,A4R21,A4R22,A4R23,A4R24</navaids>
+        <line start="RJAA-RW16R" end="ASPEN" text="157°" />
+        <line start="ASPEN" end="A6R12" text="157°" />
+        <line start="A6R12" end="KUJYU" />
+        <line start="KUJYU" end="BEACH" text="BEACH1, 284°" arrows="end" />
+        <line start="RJAA-RW16L" end="BEAMS" text="157°" />
+        <line start="BEAMS" end="A6L22" text="157°" />
+        <line start="A6L22" end="KUJYU" text="247°" />
+        <line start="RJAA-RW34L" end="ARIESr" text="337°" />
+        <line start="ARIESr" end="A4L11" text="337°" />
+        <line start="A4L11" end="A4L12" text="052°" />
+        <line start="A4L12" end="A4L13" text="097°" />
+        <line start="A4L13" end="A4L14" text="182°" />
+        <line start="A4L14" end="PEGAS" text="337°" />
+        <line start="PEGAS" end="GIMLI" text="211°" />
+        <line start="GIMLI" end="SAMMY" text="225°" />
+        <line start="SAMMY" end="BEACH" text="BEACH1, 250°" arrows="end" />
+        <line start="RJAA-RW34R" end="BOXER" text="337°" />
+        <line start="BOXER" end="A4R21" text="337°" />
+        <line start="A4R21" end="A4R22" text="067°" />
+        <line start="A4R22" end="A4R23" text="112°" />
+        <line start="A4R23" end="A4R24" text="182°" />
+        <line start="A4R24" end="SAMMY" text="204°" />
+        <restriction position="RJAA-RW16R" notbelow="600ft" />
+        <restriction position="KUJYU" notbelow="11000ft" />
+        <restriction position="BEACH" notbelow="FL200" />
+        <restriction position="RJAA-RW16L" notbelow="600ft" />
+        <restriction position="RJAA-RW34L" notbelow="600ft" />
+        <restriction position="ARIES" notbelow="4000ft" />
+        <restriction position="A4L13" notabove="7000ft" />
+        <restriction position="SAMMY" notbelow="11000ft" />
+        <restriction position="RJAA-RW34R" notbelow="600ft" />
+        <restriction position="A4R23" notabove="7000ft" />
+    </route>
+    <route name="CUPID3" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>ASPEN,A6R12,CUPID,BEAMS,A6L21,ARIESr,A4L11,A4L12,A4L13,A4L14,JELLY,BOXER,A4R21,A4R22,A4R23,SOHSA</navaids>
+        <line start="RJAA-RW16R" end="ASPEN" text="157°" />
+        <line start="ASPEN" end="A6R12" text="157°" />
+        <line start="A6R12" end="CUPID" text="CUPID3, 088°" arrows="end" />
+        <line start="RJAA-RW16L" end="BEAMS" text="157°" />
+        <line start="BEAMS" end="A6L21" text="157°" />
+        <line start="A6L21" end="CUPID" text="CUPID3, 102°" arrows="end" />
+        <line start="RJAA-RW34L" end="ARIESr" text="337°" />
+        <line start="ARIESr" end="A4L11" text="337°" />
+        <line start="A4L11" end="A4L12" text="052°" />
+        <line start="A4L12" end="A4L13" text="097°" />
+        <line start="A4L13" end="A4L14" text="128°" />
+        <line start="A4L14" end="JELLY" text="159°" />
+        <line start="JELLY" end="CUPID" text="CUPID3, 132°" />
+        <line start="RJAA-RW34R" end="BOXER" text="337°" />
+        <line start="BOXER" end="A4R21" text="337°" />
+        <line start="A4R21" end="A4R22" text="067°" />
+        <line start="A4R22" end="A4R23" text="112°" />
+        <line start="A4R23" end="SOHSA" text="157°" />
+        <line start="SOHSA" end="CUPID" text="CUPID3, 123°" />
+        <restriction position="RJAA-RW16R" notbelow="600ft" />
+        <restriction position="RJAA-RW16L" notbelow="600ft" />
+        <restriction position="RJAA-RW34L" notbelow="600ft" />
+        <restriction position="ARIESr" notbelow="4000ft" />
+        <restriction position="A4L13" notabove="7000ft" />
+        <restriction position="RJAA-RW34R" notbelow="600ft" />
+        <restriction position="A4R23" notabove="7000ft" />
+     </route>
+    <route name="DAITO2" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>ASPEN,A6R12,DAITO,MERCY,BEAMS,A6L22,ASTRA,AA433,BOXER</navaids>
+        <line start="RJAA-RW16R" end="ASPEN" text="157°" />
+        <line start="ASPEN" end="A6R12" text="157°" />
+        <line start="A6R12" end="DAITO" text="241°" />
+        <line start="DAITO" end="MERCY" text="DAITO2, 186°" arrows="end" />
+        <line start="RJAA-RW16L" end="BEAMS" text="157°" />
+        <line start="BEAMS" end="A6L22" text="157°" />
+        <line start="A6L22" end="DAITO" text="242°" />
+        <line start="RJAA-RW34L" end="ASTRA" text="337°" />
+        <intercept startTurn="ASTRA" startHeading="337" radius="2" direction="left" endHeading="147" end="AA433" text="147°" />
+        <line start="AA433" end="DAITO" text="161°" />
+        <line start="RJAA-RW34R" end="BOXER" text="337°" />
+        <intercept startTurn="BOXER" startHeading="337" radius="2" direction="left" endHeading="147" end="AA433" text="147°" />
+        <restriction position="RJAA-RW16R" notbelow="600ft" />
+        <restriction position="RJAA-RW16L" notbelow="600ft" />
+        <restriction position="RJAA-RW34L" notbelow="600ft" />
+        <restriction position="RJAA-RW34R" notbelow="600ft" />
+    </route>
+    <route name="JYOSO7" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>ASPEN,A6R11,A6R13,A6R14,ATAGO,TOADS,JYOSO,BEAMS,A6L21,AA631,AA632,PHLOX,ARIESr,BOXER,A4R21,A4R22,A4R23</navaids>
+        <line start="RJAA-RW16R" end="ASPEN" text="157°" />
+        <line start="ASPEN" end="A6R11" text="157°" />
+        <line start="A6R11" end="A6R13" text="247°" />
+        <line start="A6R13" end="A6R14" text="337°" />
+        <line start="A6R14" end="ATAGO" text="353°" />
+        <line start="ATAGO" end="TOADS" text="351°" />
+        <line start="TOADS" end="JYOSO" text="JYOSO7, 320°" arrows="end" />
+        <line start="RJAA-RW16L" end="BEAMS" text="157°" />
+        <line start="BEAMS" end="A6L21" text="157°" />
+        <line start="A6L21" end="AA631" text="067°" />
+        <line start="AA631" end="AA632" text="337°" />
+        <line start="AA632" end="PHLOX" text="283°" />
+        <line start="PHLOX" end="ATAGO" text="288°" />
+        <line start="RJAA-RW34L" end="ARIESr" text="337°" />
+        <line start="ARIESr" end="TOADS" text="337°" />
+        <line start="RJAA-RW34R" end="BOXER" text="337°" />
+        <line start="BOXER" end="A4R21" text="337°" />
+        <line start="A4R21" end="A4R22" text="067°" />
+        <line start="A4R22" end="A4R23" text="112°" />
+        <line start="A4R23" end="A4R24" text="182°" />
+        <line start="A4R24" end="PHLOX" text="215°" />
+        <restriction position="RJAA-RW16R" notbelow="600ft" />
+        <restriction position="JYOSO" notabove="7000ft" />
+        <restriction position="RJAA-RW16L" notbelow="600ft" />
+        <restriction position="RJAA-RW34L" notbelow="600ft" />
+        <restriction position="ARIESr" notbelow="4000ft" />
+        <restriction position="RJAA-RW34R" notbelow="600ft" />
+    </route>
+    <route name="PAPAS5" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>ASPEN,A6R12,PAPAS,BEAMS,A6L21,ARIESr,A4L11,A4L12,A4L13,A4L14,JELLY</navaids>
+        <line start="RJAA-RW16R" end="ASPEN" text="157°" />
+        <line start="ASPEN" end="A6R12" text="157°" />
+        <line start="A6R12" end="PAPAS" text="PAPAS5, 108°" arrows="end" />
+        <line start="RJAA-RW16L" end="BEAMS" text="157°" />
+        <line start="BEAMS" end="A6L21" text="157°" />
+        <line start="A6L21" end="PAPAS" text="PAPAS5, 123°" arrows="end" />
+        <line start="RJAA-RW34L" end="ARIESr" text="337°" />
+        <line start="ARIESr" end="A4L11" text="337°" />
+        <line start="A4L11" end="A4L12" text="052°" />
+        <line start="A4L12" end="A4L13" text="097°" />
+        <line start="A4L13" end="A4L14" text="128°" />
+        <line start="A4L14" end="JELLY" text="159°" />
+        <line start="JELLY" end="PAPAS" text="PAPAS5, 159°" arrows="end" />
+        <line start="RJAA-RW34R" end="BOXER" text="337°" />
+        <line start="BOXER" end="A4R21" text="337°" />
+        <line start="A4R21" end="A4R22" text="067°" />
+        <line start="A4R22" end="A4R23" text="112°" />
+        <line start="A4R23" end="SOHSA" text="157°" />
+        <line start="SOHSA" end="PAPAS" text="PAPAS5, 146°" arrows="end" />
+        <restriction position="RJAA-RW16R" notbelow="600ft" />
+        <restriction position="RJAA-RW16L" notbelow="600ft" />
+        <restriction position="PAPAS" notbelow="7000ft" />
+        <restriction position="RJAA-RW34L" notbelow="600ft" />
+        <restriction position="ARIES" notbelow="4000ft" />
+        <restriction position="A4L13" notabove="7000ft" />
+        <restriction position="A4R23" notabove="7000ft" />
+    </route>
+    <route name="ROUSY2" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>NRE,HKE,ROUSY,SUNNS</navaids>
+        <line start="RJAA-RW16R" end="14NM157@NRE" text="157°" />
+        <intercept startTurn="14NM157@NRE" startHeading="157" radius="2" direction="left" endHeading="108" end="21.5NM138@NRE" text="147°" />
+        <line start="RJAA-RW16L" end="15.4NM157@HKE" text="157°" />
+        <intercept startTurn="15.4NM157@HKE" startHeading="157" radius="2" direction="left" endHeading="108" end="20.5NM138@NRE" text="147°" />
+        <line start="NRE" end="ROUSY" text="ROUSY2, 138°" arrows="end" />
+        <line start="RJAA-RW34L" end="6NM337@NRE" text="337°" />
+        <intercept startTurn="6NM337@NRE" startHeading="337" radius="3" direction="right" endHeading="205" end="NRE" text="195°" />
+        <line start="RJAA-RW34R" end="3.9NM337@HKE" text="337°" />
+        <intercept startTurn="3.9NM337@HKE" startHeading="337" radius="3" direction="right" endHeading="205" end="NRE" />
+        <!-- SUNNS transition -->
+        <line start="ROUSY" end="SUNNS" text="SUNNS transition, 138°" stroke="dashed" arrows="end" />
+        <restriction position="ROUSY" notbelow="7000ft" />
+        <restriction position="9.2NM001@NRE" notbelow="2800ft" />
+        <restriction position="5.8NM005@HKE" notbelow="2800ft" />
+        <restriction position="8.3NM018@NRE" notabove="7000ft" />
+        <restriction position="5.1NM018@HKE" notabove="7000ft" />
+        <restriction position="SUNNS" notbelow="FL190" />
+    </route>
+    <route name="SAKURA4" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>NRE,TETRA,HKE</navaids>
+        <line start="RJAA-RW16R" end="14NM157@NRE" text="157°" />
+        <intercept startTurn="14NM157@NRE" startHeading="157" radius="2" direction="left" endHeading="309" end="NRE" text="309°" />
+        <line start="NRE" end="TETRA" text="SAKURA4, 271°" arrows="end" />
+        <line start="RJAA-RW16L" end="15.4NM157@HKE" text="157°" />
+        <intercept startTurn="15.4NM157@HKE" startHeading="157" radius="2" direction="left" endHeading="309" end="NRE" />
+        <line start="RJAA-RW34L" end="6NM337@NRE" text="337°" />
+        <intercept startTurn="6NM337@NRE" startHeading="337" radius="2" direction="right" endHeading="100" end="7NM036@NRE" text="100°" />
+        <intercept startTurn="7NM036@NRE" startHeading="100" radius="2" direction="right" endHeading="160" end="7NM070@NRE" text="160°" />
+        <intercept start="7NM070@NRE" startHeading="160" radius="2" direction="right" endHeading="283" end="NRE" text="283°" />
+        <line start="RJAA-RW34R" end="3.9NM337@HKE" text="337°" />
+        <intercept startTurn="3.9NM337@HKE" startHeading="337" radius="2" direction="right" endHeading="100" end="7NM036@NRE" />
+        <restriction position="TETRA" notbelow="12000ft" />
+        <restriction position="7NM001@NRE" notbelow="3000ft" />
+        <restriction position="7NM036@NRE" notbelow="4000ft" notabove="7000ft" />
+    </route>
+    <route name="TETRA6" displayMode="sid">
+        <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
+        <navaids>ASPEN,A6R11,AA631,AA632,PHLOX,TETRA,BEAMS,A6L21,ARIESr,A4L11,A4L12,A4L13,A4L14,PEGAS,BOXER,A4R21,A4R22,A4R23,A4R24</navaids>
+        <line start="RJAA-RW16R" end="ASPEN" text="157°" />
+        <line start="ASPEN" end="A6R11" text="157°" />
+        <line start="A6R11" end="AA631" text="067°" />
+        <line start="AA631" end="AA632" text="337°" />
+        <line start="AA632" end="PHLOX" text="283°" />
+        <line start="PHLOX" end="TETRA" text="TETRA6, 282°" arrows="end" />
+        <line start="RJAA-RW16L" end="BEAMS" text="157°" />
+        <line start="BEAMS" end="A6L21" text="157°" />
+        <line start="A6L21" end="AA631" />
+        <line start="RJAA-RW34L" end="ARIESr" text="337°" />
+        <line start="ARIESr" end="A4L11" text="337°" />
+        <line start="A4L11" end="A4L12" text="052°" />
+        <line start="A4L12" end="A4L13" text="097°" />
+        <line start="A4L13" end="A4L14" text="128°" />
+        <line start="A4L14" end="PEGAS" text="182°" />
+        <line start="PEGAS" end="PHLOX" text="244°" />
+        <line start="RJAA-RW34R" end="BOXER" text="337°" />
+        <line start="BOXER" end="A4R21" text="337°" />
+        <line start="A4R21" end="A4R22" text="067°" />
+        <line start="A4R22" end="A4R23" text="112°" />
+        <line start="A4R23" end="A4R24" text="182°" />
+        <line start="A4R24" end="PHLOX" text="215°" />
+        <restriction position="RJAA-RW16R" notbelow="600ft" />
+        <restriction position="TETRA" notbelow="12000ft" />
+        <restriction position="RJAA-RW16L" notbelow="600ft" />
+        <restriction position="RJAA-RW34L" notbelow="600ft" />
+        <restriction position="ARIES" notbelow="4000ft" />
+        <restriction position="A4L13" notabove="7000ft" />
+        <restriction position="RJAA-RW34R" notbelow="600ft" />
+        <restriction position="A4L23" notabove="7000ft" />
+    </route>
+    <!-- Approach procedures -->
+    <!-- STAR -->
+</routes>
