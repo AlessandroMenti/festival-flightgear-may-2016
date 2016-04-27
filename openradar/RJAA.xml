@@ -18,6 +18,7 @@
     <addPoint code="AA433" point="N35°44'38.5'',E140°17'00.8''" />
     <addPoint code="AA631" point="N35°36'19.9'',E140°44'31.9''" />
     <addPoint code="AA632" point="N35°44'46.7'',E140°38'28.9''" />
+    <addPoint code="ABBOT" point="N35°49'13.93'',E141°05'07.20''" />
     <addPoint code="ARWEN" point="N36°15'28.34'',E139°50'43.89''" />
     <addPoint code="ARIESr" point="N35°56'07.38'',E140°15'05.88''" />
     <addPoint code="ASPEN" point="N35°34'51.00'',E140°30'28.10''" />
@@ -25,24 +26,42 @@
     <addPoint code="ATAGO" point="N35°47'00.9'',E140°15'46.8''" />
     <addPoint code="BEACH" point="N35°24'08.51'',E139°54'12.37''" />
     <addPoint code="BEAMS" point="N35°35'33.00'',E140°31'53.10''" />
+    <addPoint code="BINKS" point="N35°11'16.31'',E140°43'56.67''" />
     <addPoint code="BOXER" point="N35°52'13.00'',E140°19'51.60''" />
+    <addPoint code="CETUS" point="N35°36'09.8'',E140°48'13.2''" />
+    <addPoint code="CLUST" point="N35°51'50.9'',E140°44'41.4''" />
     <addPoint code="CREEK" point="N35°56'43.36'',E140°16'35.64''" />
     <addPoint code="CUPID" point="N35°29'30.25'',E141°05'57.26''" />
     <addPoint code="DAITO" point="N35°21'53.56'',E140°30'39.03''" />
+    <addPoint code="DANTE" point="N36°07'16.81'',E140°28'22.01''" />
+    <addPoint code="ELGAR" point="N35°31'29.2'',E140°45'27.4''" />
+    <addPoint code="GEMIN" point="N35°57'38.6'',E140°24'50.7''" />
+    <addPoint code="GIINA" point="N35°31'20.65'',E140°32'59.15''" />
     <addPoint code="GIMLI" point="N35°44'57.6'',E140°29'34.4''" />
+    <addPoint code="INUBO" point="N35°43'35.3'',E140°47'57.9''" />
     <addPoint code="JELLY" point="N35°41'32.6'',E140°44'19.7''" />
     <addPoint code="JYOSO" point="N36°16'46.4'',E139°51'09.5''" />
-    <addPoint code="KUJYU" point="N35°21'03.95,E140°27'19.84''" />
+    <addPoint code="KUJYU" point="N35°21'03.95'',E140°27'19.84''" />
+    <addPoint code="MELONr" point="N35°50'57.1'',E140°51'51.2''" />
     <addPoint code="MERCY" point="N35°03'24.83'',E140°31'20.87''" />
     <addPoint code="METIS" point="N35°59'45.62'',E140°14'23.01''" />
+    <addPoint code="NORMA" point="N35°59'00.8'',E140°32'54.0''" />
     <addPoint code="PEGAS" point="N35°51'26.3'',E140°33'02.1''" />
     <addPoint code="PHLOX" point="N35°45'56.6'',E140°22'46.1''" />
+    <addPoint code="ROUGE" point="N35°17'35.9'',E140°44'43.7''" />
     <addPoint code="ROUSY" point="N35°22'24.04'',E140°56'40.35''" />
     <addPoint code="SAMMY" point="N35°35'26.7'',E140°20'42.0''" />
+    <addPoint code="SEDNA" point="N35°42'48.8'',E140°49'10.4''" />
     <addPoint code="SOHSA" point="N35°40'31.74'',E140°37'47.70''" />
+    <addPoint code="SWAMP" point="N36°19'14.44'',E140°32'17.02''" />
+    <addPoint code="TEMIS" point="N35°32'01.71'',E140°34'24.81''" />
     <addPoint code="TETRA" point="N35°46'26.37'',E140°15'55.78''" />
     <addPoint code="TOADS" point="N36°02'49.27'',E140°10'13.47''" />
+    <addPoint code="TWINS" point="N35°49'55.8'',E140°37'34.0''" />
+    <addPoint code="TYLER" point="N35°26'50.5'',E140°38'07.8''" />
+    <addPoint code="WEBBS" point="N35°48'20.03'',E140°47'31.16''" />
     <!-- Ground -->
+    <!-- FIXME -->
     <!-- SIDs -->
     <route name="AKAGI2" displayMode="sid">
         <activeStartRunways>16R,16L,34L,34R</activeStartRunways>
@@ -284,5 +303,131 @@
         <restriction position="A4L23" notabove="7000ft" />
     </route>
     <!-- Approach procedures -->
+    <!-- FIXME -->
     <!-- STAR -->
+    <route name="ABBOT NORTH" displayMode="star">
+        <activeLandingRunways>16R,16L</activeLandingRunways>
+        <navaids>ABBOT,WEBBS,LAKES</navaids>
+        <line start="ABBOT" end="WEBBS" text="ABBOT NORTH, 273°" />
+        <loop navpoint="ABBOT" inboundHeading="276" length="5.2" arrows="both" minHeight="4000" />
+        <line start="WEBBS" end="12.8NM093@NRE" />
+        <bow center="NRE" radius="12.8" startAngle="039" extentAngle="54" />
+        <restriction position="LAKES" notbelow="7000ft" />
+    </route>
+    <route name="LAKES" displayMode="star">
+        <activeLandingRunways>16R,16L</activeLandingRunways>
+        <navaids>BINKS,ABBOT,WEBBS,LAKES</navaids>
+        <loop navpoint="BINKS" inboundHeading="340" length="6" arrows="both" minHeight="6000" />
+        <line start="BINKS" end="21NM160@NRE" text="LAKES, 340°" />
+        <bow center="NRE" radius="21" startAngle="093" extentAngle="67" />
+        <line start="WEBBS" end="12.8NM093@NRE" />
+        <bow center="NRE" radius="12.8" startAngle="039" extentAngle="54" />
+        <restriction position="LAKES" notbelow="7000ft" />
+    </route>
+    <route name="SWAMP NORTH" displayMode="star">
+        <activeLandingRunways>16R,16L</activeLandingRunways>
+        <navaids>SWAMP,DANTE,ABBOT,WEBBS,LAKES</navaids>
+        <loop navpoint="SWAMP" inboundHeading="202" length="6.6" right="false" arrows="both" minHeight="11000" />
+        <line start="SWAMP" end="DANTE" text="SWAMP NORTH, 202°" />
+        <bow center="NRE" radius="21" startAngle="022" extentAngle="71" />
+        <line start="WEBBS" end="12.8NM093@NRE" />
+        <bow center="NRE" radius="12.8" startAngle="039" extentAngle="54" />
+        <restriction position="LAKES" notbelow="7000ft" />
+    </route>
+    <route name="NORMA" displayMode="star">
+        <activeLandingRunways>16R,16L</activeLandingRunways>
+        <navaids>MELONr,CLUST,NORMA</navaids>
+        <loop navpoint="MELONr" inboundHeading="286" arrows="both" minHeight="6000" />
+        <line start="MELONr" end="CLUST" text="NORMA, 286°" />
+        <line start="CLUST" end="NORMA" text="314°" arrows="end" />
+        <loop navpoint="NORMA" inboundHeading="314" arrows="both" minHeight="6000" />
+    </route>
+    <route name="GEMIN" displayMode="star">
+        <activeLandingRunways>16R,16L</activeLandingRunways>
+        <navaids>BINKS,CETUS,INUBO,TWINS,GEMIN</navaids>
+        <loop navpoint="BINKS" inboundHeading="340" length="6" arrows="both" minHeight="6000" />
+        <line start="BINKS" end="CETUS" text="GEMIN, 015°" />
+        <loop navpoint="CETUS" inboundHeading="015" arrows="both" minHeight="6000" />
+        <line start="CETUS" end="INUBO" text="006°" />
+        <loop navpoint="INUBO" inboundHeading="013" arrows="both" minHeight="6000" />
+        <line start="INUBO" end="TWINS" text="314°" />
+        <line start="TWINS" end="GEMIN" text="314°" arrows="end" />
+        <loop navpoint="GEMIN" inboundHeading="314" arrows="both" minHeight="4000" />
+    </route>
+    <route name="ABBOT SOUTH ALFA" displayMode="star">
+        <activeLandingRunways>34L</activeLandingRunways>
+        <navaids>ABBOT,WEBBS,GIINA</navaids>
+        <loop navpoint="ABBOT" inboundHeading="276" arrows="both" length="5.2" minHeight="4000" />
+        <line start="ABBOT" end="WEBBS" text="ABBOT SOUTH ALFA, 273°" />
+        <bow center="NRE" radius="21" startAngle="093" extentAngle="64" />
+        <line start="21NM157@NRE" end="GIINA" arrows="end" />
+        <loop navpoint="GIINA" inboundHeading="337" arrows="both" length="4.9" right="false" minHeight="4000" maxHeight="4000" />
+        <restriction position="GIINA" notabove="4000ft" notbelow="4000ft" />
+    </route>
+    <route name="ABBOT SOUTH BRAVO" displayMode="star">
+        <activeLandingRunways>34R</activeLandingRunways>
+        <navaids>ABBOT,WEBBS,TEMIS</navaids>
+        <line start="ABBOT" end="WEBBS" text="ABBOT SOUTH BRAVO, 273°" />
+        <bow center="NRE" radius="20.97" startAngle="093.5" extentAngle="59.83" />
+        <line start="15NM157@HKE" end="TEMIS" arrows="end" />
+        <loop navpoint="TEMIS" inboundHeading="337" arrows="both" length="5.5" minHeight="5000" />
+        <restriction position="TEMIS" notbelow="5000ft" />
+    </route>
+    <route name="BINKS SOUTH ALFA" displayMode="star">
+        <activeLandingRunways>34L</activeLandingRunways>
+        <navaids>BINKS,GIINA</navaids>
+        <loop navpoint="BINKS" inboundHeading="340" length="6" arrows="both" minHeight="6000" />
+        <intercept start="BINKS" startHeading="007" radius="2" direction="left" endHeading="337" end="GIINA" text="BINKS SOUTH ALFA, 337°" arrows="end" />
+        <loop navpoint="GIINA" inboundHeading="337" arrows="both" length="4.9" right="false" minHeight="4000" maxHeight="4000" />
+        <restriction position="GIINA" notabove="4000ft" notbelow="4000ft" />
+    </route>
+    <route name="BINKS SOUTH BRAVO" displayMode="star">
+        <activeLandingRunways>34R</activeLandingRunways>
+        <navaids>BINKS,TEMIS</navaids>
+        <intercept start="BINKS" startHeading="007" radius="2" direction="left" endHeading="337" end="TEMIS" text="BINKS SOUTH BRAVO, 337°" arrows="end" />
+        <loop navpoint="TEMIS" inboundHeading="337" arrows="both" length="5.5" minHeight="5000" />
+        <restriction position="TEMIS" notbelow="5000ft" />
+    </route>
+    <route name="SWAMP SOUTH ALFA" displayMode="star">
+        <activeLandingRunways>34L</activeLandingRunways>
+        <navaids>SWAMP,DANTE,WEBBS,GIINA</navaids>
+        <loop navpoint="SWAMP" inboundHeading="202" arrows="both" length="6.6" right="false" minHeight="11000" />
+        <line start="SWAMP" end="DANTE" text="SWAMP SOUTH ALFA, 202°" />
+        <bow center="NRE" radius="21" startAngle="022" extentAngle="71" />
+        <bow center="NRE" radius="21" startAngle="093" extentAngle="64" />
+        <line start="21NM157@NRE" end="GIINA" arrows="end" />
+        <loop navpoint="GIINA" inboundHeading="337" arrows="both" length="4.9" right="false" minHeight="4000" maxHeight="4000" />
+        <restriction position="DANTE" notbelow="11000ft" />
+        <restriction position="WEBBS" notbelow="9000ft" />
+        <restriction position="GIINA" notabove="4000ft" notbelow="4000ft" />
+    </route>
+    <route name="SWAMP SOUTH BRAVO" displayMode="star">
+        <activeLandingRunways>34R</activeLandingRunways>
+        <navaids>SWAMP,DANTE,WEBBS,TEMIS</navaids>
+        <loop navpoint="SWAMP" inboundHeading="202" arrows="both" length="6.6" right="false" minHeight="11000" />
+        <line start="SWAMP" end="DANTE" text="SWAMP SOUTH ALFA, 202°" />
+        <bow center="NRE" radius="21" startAngle="022" extentAngle="71" />
+        <bow center="NRE" radius="20.97" startAngle="093.5" extentAngle="59.83" />
+        <line start="15NM157@HKE" end="TEMIS" arrows="end" />
+        <loop navpoint="TEMIS" inboundHeading="337" arrows="both" length="5.5" minHeight="5000" />
+        <restriction position="DANTE" notbelow="11000ft" />
+        <restriction position="WEBBS" notbelow="9000ft" />
+        <restriction position="TEMIS" notbelow="5000ft" />
+    </route>
+    <route name="ELGAR" displayMode="star">
+        <activeLandingRunways>34L,34R</activeLandingRunways>
+        <navaids>MELONr,SEDNA,ELGAR</navaids>
+        <loop navpoint="MELONr" inboundHeading="286" arrows="both" minHeight="6000" />
+        <line start="MELONr" end="SEDNA" text="ELGAR, 202°" />
+        <line start="SEDNA" end="ELGAR" text="202°" arrows="end" />
+        <loop navpoint="ELGAR" inboundHeading="316" arrows="both" length="5.3" minHeight="4000" />
+    </route>
+    <route name="TYLER" displayMode="star">
+        <activeLandingRunways>34L,34R</activeLandingRunways>
+        <navaids>BINKS,ROUGE,TYLER</navaids>
+        <loop navpoint="BINKS" inboundHeading="340" arrows="both" length="6" minHeight="6000" />
+        <line start="BINKS" end="ROUGE" text="TYLER, 013°" />
+        <line start="ROUGE" end="TYLER" text="337°" arrows="end" />
+        <loop navpoint="TYLER" inboundHeading="337" arrows="both" length="5.5" right="false" minHeight="4000" />
+    </route>
 </routes>
