@@ -410,6 +410,7 @@
         <loop navpoint="ABBOT" inboundHeading="276" length="5.2" arrows="both" minHeight="4000" />
         <line start="WEBBS" end="12.8NM093@NRE" />
         <bow center="NRE" radius="12.8" startAngle="039" extentAngle="54" />
+        <restriction position="ABBOT" maxspeed="210" />
         <restriction position="LAKES" notbelow="7000ft" />
     </route>
     <route name="LAKES" displayMode="star">
@@ -421,6 +422,7 @@
         <line start="WEBBS" end="12.8NM093@NRE" />
         <bow center="NRE" radius="12.8" startAngle="039" extentAngle="54" />
         <restriction position="LAKES" notbelow="7000ft" />
+        <restriction position="BINKS" maxspeed="230" />
     </route>
     <route name="SWAMP NORTH" displayMode="star">
         <activeLandingRunways>16R,16L</activeLandingRunways>
@@ -431,6 +433,7 @@
         <line start="WEBBS" end="12.8NM093@NRE" />
         <bow center="NRE" radius="12.8" startAngle="039" extentAngle="54" />
         <restriction position="LAKES" notbelow="7000ft" />
+        <restriction position="SWAMP" maxspeed="230" />
     </route>
     <route name="NORMA" displayMode="star">
         <activeLandingRunways>16R,16L</activeLandingRunways>
@@ -439,6 +442,8 @@
         <line start="MELONr" end="CLUST" text="NORMA, 286°" />
         <line start="CLUST" end="NORMA" text="314°" arrows="end" />
         <loop navpoint="NORMA" inboundHeading="314" arrows="both" minHeight="6000" />
+        <restriction position="MELON" maxspeed="230" />
+        <restriction position="NORMA" maxspeed="240" />
     </route>
     <route name="GEMIN" displayMode="star">
         <activeLandingRunways>16R,16L</activeLandingRunways>
@@ -451,6 +456,10 @@
         <line start="INUBO" end="TWINS" text="314°" />
         <line start="TWINS" end="GEMIN" text="314°" arrows="end" />
         <loop navpoint="GEMIN" inboundHeading="314" arrows="both" minHeight="4000" />
+        <restriction position="BINKS" maxspeed="230" />
+        <restriction position="CETUS" maxspeed="230" />
+        <restriction position="INUBO" maxspeed="230" />
+        <restriction position="GEMIN" maxspeed="230" />
     </route>
     <route name="ABBOT SOUTH ALFA" displayMode="star">
         <activeLandingRunways>34L</activeLandingRunways>
@@ -461,6 +470,8 @@
         <line start="21NM157@NRE" end="GIINA" arrows="end" />
         <loop navpoint="GIINA" inboundHeading="337" arrows="both" length="4.9" right="false" minHeight="4000" maxHeight="4000" />
         <restriction position="GIINA" notabove="4000ft" notbelow="4000ft" />
+        <restriction position="ABBOT" maxspeed="210" />
+        <restriction position="GIINA" maxspeed="230" />
     </route>
     <route name="ABBOT SOUTH BRAVO" displayMode="star">
         <activeLandingRunways>34R</activeLandingRunways>
@@ -470,6 +481,8 @@
         <line start="15NM157@HKE" end="TEMIS" arrows="end" />
         <loop navpoint="TEMIS" inboundHeading="337" arrows="both" length="5.5" minHeight="5000" />
         <restriction position="TEMIS" notbelow="5000ft" />
+        <restriction position="ABBOT" maxspeed="210" />
+        <restriction position="TEMIS" maxspeed="230" />
     </route>
     <route name="BINKS SOUTH ALFA" displayMode="star">
         <activeLandingRunways>34L</activeLandingRunways>
@@ -478,6 +491,8 @@
         <intercept start="BINKS" startHeading="007" radius="2" direction="left" endHeading="337" end="GIINA" text="BINKS SOUTH ALFA, 337°" arrows="end" />
         <loop navpoint="GIINA" inboundHeading="337" arrows="both" length="4.9" right="false" minHeight="4000" maxHeight="4000" />
         <restriction position="GIINA" notabove="4000ft" notbelow="4000ft" />
+        <restriction position="BINKS" maxspeed="230" />
+        <restriction position="GIINA" maxspeed="230" />
     </route>
     <route name="BINKS SOUTH BRAVO" displayMode="star">
         <activeLandingRunways>34R</activeLandingRunways>
@@ -485,6 +500,8 @@
         <intercept start="BINKS" startHeading="007" radius="2" direction="left" endHeading="337" end="TEMIS" text="BINKS SOUTH BRAVO, 337°" arrows="end" />
         <loop navpoint="TEMIS" inboundHeading="337" arrows="both" length="5.5" minHeight="5000" />
         <restriction position="TEMIS" notbelow="5000ft" />
+        <restriction position="BINKS" maxspeed="230" />
+        <restriction position="TEMIS" maxspeed="230" />
     </route>
     <route name="SWAMP SOUTH ALFA" displayMode="star">
         <activeLandingRunways>34L</activeLandingRunways>
@@ -498,6 +515,8 @@
         <restriction position="DANTE" notbelow="11000ft" />
         <restriction position="WEBBS" notbelow="9000ft" />
         <restriction position="GIINA" notabove="4000ft" notbelow="4000ft" />
+        <restriction position="SWAMP" maxspeed="230" />
+        <restriction position="GIINA" maxspeed="230" />
     </route>
     <route name="SWAMP SOUTH BRAVO" displayMode="star">
         <activeLandingRunways>34R</activeLandingRunways>
@@ -511,6 +530,8 @@
         <restriction position="DANTE" notbelow="11000ft" />
         <restriction position="WEBBS" notbelow="9000ft" />
         <restriction position="TEMIS" notbelow="5000ft" />
+        <restriction position="SWAMP" maxspeed="230" />
+        <restriction position="TEMIS" maxspeed="230" />
     </route>
     <route name="ELGAR" displayMode="star">
         <activeLandingRunways>34L,34R</activeLandingRunways>
@@ -519,6 +540,8 @@
         <line start="MELONr" end="SEDNA" text="ELGAR, 202°" />
         <line start="SEDNA" end="ELGAR" text="202°" arrows="end" />
         <loop navpoint="ELGAR" inboundHeading="316" arrows="both" length="5.3" minHeight="4000" />
+        <restriction position="MELON" maxspeed="240" />
+        <restriction position="ELGAR" maxspeed="230" />
     </route>
     <route name="TYLER" displayMode="star">
         <activeLandingRunways>34L,34R</activeLandingRunways>
@@ -527,5 +550,7 @@
         <line start="BINKS" end="ROUGE" text="TYLER, 013°" />
         <line start="ROUGE" end="TYLER" text="337°" arrows="end" />
         <loop navpoint="TYLER" inboundHeading="337" arrows="both" length="5.5" right="false" minHeight="4000" />
+        <restriction position="BINKS" maxspeed="230" />
+        <restriction position="TYLER" maxspeed="230" />
     </route>
 </routes>
