@@ -14,15 +14,15 @@ Installation instructions
 
 Put each ground network (`groundnets/ICAO.groundnet.xml`) in
 `$FG_SCENERY/Airports/I/C/A/ICAO.groundnet.xml`. (For example, put
-`groundnets/LOWW.groundnet.xml` in
-`$FG_SCENERY/Airports/L/O/W/LOWW.groundnet.xml`).
+`groundnets/RJGG.groundnet.xml` in
+`$FG_SCENERY/Airports/R/J/G/RJGG.groundnet.xml`).
 
 <h3>Route Manager files:</h3>
 
 Put each Route Manager file (`routemanager/ICAO.procedures.xml`) in
 `$FG_SCENERY/Airports/I/C/A/ICAO.procedures.xml`. (For example, put
 `routemanager/LOWW.procedures.xml` in
-`$FG_SCENERY/Airports/L/O/W/LOWW.procedures.xml`).
+`$FG_SCENERY/Airports/R/J/G/RJGG.procedures.xml`).
 
 
 Getting charts
