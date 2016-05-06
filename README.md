@@ -1,4 +1,4 @@
-The Festival of FlightGear (May 2016 Edition) support files
+mThe Festival of FlightGear (May 2016 Edition) support files
 ===========================================================
 
 Installation instructions
@@ -45,6 +45,11 @@ version.
 This data is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
 A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
+Charts
+--------
+https://aisjapan.mlit.go.jp/ -- register (free) and navigate to the AIP section for official charts
 
 You should have received a copy of the GNU General Public License along with
 this data; if not, write to the Free Software Foundation, Inc., 51 Franklin
