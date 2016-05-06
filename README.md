@@ -1,4 +1,4 @@
-mThe Festival of FlightGear (May 2016 Edition) support files
+The Festival of FlightGear (May 2016 Edition) support files
 ===========================================================
 
 Installation instructions
