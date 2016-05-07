@@ -1,0 +1,1346 @@
+<!-- Copyright © 2016 Alessandro Menti
+
+     This data is free software; you can redistribute it and/or modify it under
+     the terms of the GNU General Public License as published by the Free
+     Software Foundation; either version 2 of the License, or (at your option)
+     any later version.
+
+     This data is distributed in the hope that it will be useful, but WITHOUT
+     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+     FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+     more details.
+
+     You should have received a copy of the GNU General Public License along
+     with this data; if not, visit <http://www.gnu.org/licenses> or write to
+     the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+     Boston, MA 02110-1301 USA. -->
+<ProceduresDB>
+    <Airport ICAOcode="RJAA">
+        <Sid Name="AKAGI2" Runways="All">
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(NRE14)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5671866667</Latitude>
+                    <Longitude>140.47429</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>NRE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(HKE15)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.57228</Latitude>
+                    <Longitude>140.498325</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>NRE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>ARIES</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9353833333</Latitude>
+                    <Longitude>140.251633333</Longitude>
+                    <Altitude>4000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>TOADS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0470194444</Latitude>
+                    <Longitude>140.170408333</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>(INTC)</Name>
+                    <Type>Intc</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>281</Hdg_Crs_value>
+                    <RadialtoIntercept>326</RadialtoIntercept>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>CREEK</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9453777778</Latitude>
+                    <Longitude>140.276566667</Longitude>
+                    <Altitude>4000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>METIS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9960055556</Latitude>
+                    <Longitude>140.239725</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>(INTC)</Name>
+                    <Type>Intc</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>281</Hdg_Crs_value>
+                    <RadialtoIntercept>326</RadialtoIntercept>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>ARWEN</Name>
+                <Type>Normal</Type>
+                <Latitude>36.2578722222</Latitude>
+                <Longitude>139.845525</Longitude>
+                <Altitude>7000</Altitude>
+                <AltitudeRestriction>below</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>AKAGI</Name>
+                <Type>Normal</Type>
+                <Latitude>36.3912027778</Latitude>
+                <Longitude>139.698966667</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="BEACH1" Runways="All">
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ASPEN</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5808333333</Latitude>
+                    <Longitude>140.507805556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6R12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.42875</Latitude>
+                    <Longitude>140.616861111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>KUJYU</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.3510972222</Latitude>
+                    <Longitude>140.455511111</Longitude>
+                    <Altitude>11000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BEAMS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5841666667</Latitude>
+                    <Longitude>140.531416667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6L22</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.4401666667</Latitude>
+                    <Longitude>140.640638889</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>KUJYU</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.3510972222</Latitude>
+                    <Longitude>140.455511111</Longitude>
+                    <Altitude>11000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ARIES</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9353833333</Latitude>
+                    <Longitude>140.251633333</Longitude>
+                    <Altitude>4000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4L11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9876666667</Latitude>
+                    <Longitude>140.213638889</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4L12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0423888889</Latitude>
+                    <Longitude>140.279666667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4L13</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0435277778</Latitude>
+                    <Longitude>140.43325</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>A4L14</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9938333333</Latitude>
+                    <Longitude>140.534722222</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>PEGAS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8573055556</Latitude>
+                    <Longitude>140.550583333</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="8">
+                    <Name>GIMLI</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7493333333</Latitude>
+                    <Longitude>140.492888889</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="9">
+                    <Name>SAMMY</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.59075</Latitude>
+                    <Longitude>140.345</Longitude>
+                    <Altitude>11000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BOXER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8702777778</Latitude>
+                    <Longitude>140.331</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4R21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9248333333</Latitude>
+                    <Longitude>140.291444444</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4R22</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9595833333</Latitude>
+                    <Longitude>140.363916667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4R23</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9441111111</Latitude>
+                    <Longitude>140.437416667</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>A4R24</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8708888889</Latitude>
+                    <Longitude>140.446</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>SAMMY</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.59075</Latitude>
+                    <Longitude>140.345</Longitude>
+                    <Altitude>11000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>BEACH</Name>
+                <Type>Normal</Type>
+                <Latitude>35.4023638889</Latitude>
+                <Longitude>139.903436111</Longitude>
+                <Altitude>20000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="CUPID3" Runways="All">
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BEAMS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5841666667</Latitude>
+                    <Longitude>140.531416667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6L21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5271944444</Latitude>
+                    <Longitude>140.578305556</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ASPEN</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5808333333</Latitude>
+                    <Longitude>140.507805556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6R12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.42875</Latitude>
+                    <Longitude>140.616861111</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BOXER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8702777778</Latitude>
+                    <Longitude>140.331</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4R21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9248333333</Latitude>
+                    <Longitude>140.291444444</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4R22</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9595833333</Latitude>
+                    <Longitude>140.363916667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4R23</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9441111111</Latitude>
+                    <Longitude>140.437416667</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>SOHSA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.6754833333</Latitude>
+                    <Longitude>140.629916667</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ARIES</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9353833333</Latitude>
+                    <Longitude>140.251633333</Longitude>
+                    <Altitude>4000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4L11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9876666667</Latitude>
+                    <Longitude>140.213638889</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4L12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0423888889</Latitude>
+                    <Longitude>140.279666667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4L13</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0435277778</Latitude>
+                    <Longitude>140.43325</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>A4L14</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9938333333</Latitude>
+                    <Longitude>140.534722222</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>JELLY</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.6923888889</Latitude>
+                    <Longitude>140.738805556</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>CUPID</Name>
+                <Type>Normal</Type>
+                <Latitude>35.4917361111</Latitude>
+                <Longitude>141.099238889</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="DAITO2" Runways="All">
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BEAMS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5841666667</Latitude>
+                    <Longitude>140.531416667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6L22</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.4401666667</Latitude>
+                    <Longitude>140.640638889</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ASPEN</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5808333333</Latitude>
+                    <Longitude>140.507805556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6R12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.42875</Latitude>
+                    <Longitude>140.616861111</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BOXER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8702777778</Latitude>
+                    <Longitude>140.331</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>AA433</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7440277778</Latitude>
+                    <Longitude>140.283555556</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ASTRA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8686388889</Latitude>
+                    <Longitude>140.300055556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>AA433</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7440277778</Latitude>
+                    <Longitude>140.283555556</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>DAITO</Name>
+                <Type>Normal</Type>
+                <Latitude>35.3648777778</Latitude>
+                <Longitude>140.510841667</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>MERCY</Name>
+                <Type>Normal</Type>
+                <Latitude>35.0568972222</Latitude>
+                <Longitude>140.522463889</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="JYOSO7" Runways="All">
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BEAMS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5841666667</Latitude>
+                    <Longitude>140.531416667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6L21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5271944444</Latitude>
+                    <Longitude>140.578305556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>AA631</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.6055277778</Latitude>
+                    <Longitude>184.008861111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>AA632</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7463055556</Latitude>
+                    <Longitude>140.641361111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>PHLOX</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7657222222</Latitude>
+                    <Longitude>140.379472222</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>ATAGO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7835833333</Latitude>
+                    <Longitude>140.263</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ASPEN</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5808333333</Latitude>
+                    <Longitude>140.507805556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6R11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5158055556</Latitude>
+                    <Longitude>140.5545</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A6R13</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.4485833333</Latitude>
+                    <Longitude>140.414611111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A6R14</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5568611111</Latitude>
+                    <Longitude>140.336638889</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>ATAGO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7835833333</Latitude>
+                    <Longitude>140.263</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BOXER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8702777778</Latitude>
+                    <Longitude>140.331</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4R21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9248333333</Latitude>
+                    <Longitude>140.291444444</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4R22</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9595833333</Latitude>
+                    <Longitude>140.363916667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4R23</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9441111111</Latitude>
+                    <Longitude>140.437416667</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>A4R24</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8708888889</Latitude>
+                    <Longitude>140.446</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>PHLOX</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7657222222</Latitude>
+                    <Longitude>140.379472222</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="8">
+                    <Name>ATAGO</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7835833333</Latitude>
+                    <Longitude>140.263</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ARIES</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9353833333</Latitude>
+                    <Longitude>140.251633333</Longitude>
+                    <Altitude>4000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>TOADS</Name>
+                <Type>Normal</Type>
+                <Latitude>36.0470194444</Latitude>
+                <Longitude>140.170408333</Longitude>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>JYOSO</Name>
+                <Type>Normal</Type>
+                <Latitude>36.2795555556</Latitude>
+                <Longitude>139.852638889</Longitude>
+                <Altitude>7000</Altitude>
+                <AltitudeRestriction>below</AltitudeRestriction>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="PAPAS5" Runways="All">
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BEAMS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5841666667</Latitude>
+                    <Longitude>140.531416667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6L21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5271944444</Latitude>
+                    <Longitude>140.578305556</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ASPEN</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5808333333</Latitude>
+                    <Longitude>140.507805556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6R12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.42875</Latitude>
+                    <Longitude>140.616861111</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BOXER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8702777778</Latitude>
+                    <Longitude>140.331</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4R21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9248333333</Latitude>
+                    <Longitude>140.291444444</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4R22</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9595833333</Latitude>
+                    <Longitude>140.363916667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4R23</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9441111111</Latitude>
+                    <Longitude>140.437416667</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>SOHSA</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.6754833333</Latitude>
+                    <Longitude>140.629916667</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ARIES</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9353833333</Latitude>
+                    <Longitude>140.251633333</Longitude>
+                    <Altitude>4000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4L11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9876666667</Latitude>
+                    <Longitude>140.213638889</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4L12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0423888889</Latitude>
+                    <Longitude>140.279666667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4L13</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0435277778</Latitude>
+                    <Longitude>140.43325</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>A4L14</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9938333333</Latitude>
+                    <Longitude>140.534722222</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>JELLY</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.6923888889</Latitude>
+                    <Longitude>140.738805556</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>PAPAS</Name>
+                <Type>Normal</Type>
+                <Latitude>35.3781944444</Latitude>
+                <Longitude>140.949613889</Longitude>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="ROUSY2" Runways="All">
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(HKE15)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.6825019794</Latitude>
+                    <Longitude>140.498325</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>(INTC)</Name>
+                    <Type>Intc</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>108</Hdg_Crs_value>
+                    <RadialtoIntercept>138</RadialtoIntercept>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(14NRE)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5671866667</Latitude>
+                    <Longitude>140.47429</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>(INTC)</Name>
+                    <Type>Intc</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>108</Hdg_Crs_value>
+                    <RadialtoIntercept>138</RadialtoIntercept>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(HKE4)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8688783333</Latitude>
+                    <Longitude>140.34414</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>NRE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(6NRE)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8745233333</Latitude>
+                    <Longitude>140.314456667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>NRE</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>ROUSY</Name>
+                <Type>Normal</Type>
+                <Latitude>35.3733444444</Latitude>
+                <Longitude>140.944541667</Longitude>
+                <Altitude>7000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+            <Sid_Waypoint ID="2">
+                <Name>SUNNS</Name>
+                <Type>Normal</Type>
+                <Latitude>34.8044638889</Latitude>
+                <Longitude>141.737927778</Longitude>
+                <Altitude>19000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="SAKURA4" Runways="All">
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(14NRE)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5671866667</Latitude>
+                    <Longitude>140.47429</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>(INTC)</Name>
+                    <Type>Intc</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>309</Hdg_Crs_value>
+                    <RadialtoIntercept>309</RadialtoIntercept>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(NRE14)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.57228</Latitude>
+                    <Longitude>140.498325</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>(INTC)</Name>
+                    <Type>Intc</Type>
+                    <Latitude>35.78234700</Latitude>
+                    <Longitude>140.36253600</Longitude>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>309</Hdg_Crs_value>
+                    <RadialtoIntercept>309</RadialtoIntercept>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(HKE337)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8688783333</Latitude>
+                    <Longitude>140.34414</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>(7NRE)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8768416667</Latitude>
+                    <Longitude>140.446918333</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>(7NRE2)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8222333333</Latitude>
+                    <Longitude>140.497346667</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(6NRE)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8745233333</Latitude>
+                    <Longitude>140.314456667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>(7NRE)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8768416667</Latitude>
+                    <Longitude>140.446918333</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>(7NRE2)</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8222333333</Latitude>
+                    <Longitude>140.497346667</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>TETRA</Name>
+                <Type>Normal</Type>
+                <Latitude>35.7739916667</Latitude>
+                <Longitude>140.265494444</Longitude>
+                <Altitude>12000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+        </Sid>
+        <Sid Name="TETRA6" Runways="All">
+            <RunwayTransition Runway="16L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BEAMS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5841666667</Latitude>
+                    <Longitude>140.531416667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6L21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5271944444</Latitude>
+                    <Longitude>140.578305556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>AA631</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.6055277778</Latitude>
+                    <Longitude>184.008861111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>AA632</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7463055556</Latitude>
+                    <Longitude>140.641361111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>PHLOX</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7657222222</Latitude>
+                    <Longitude>140.379472222</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="16R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>157</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ASPEN</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5808333333</Latitude>
+                    <Longitude>140.507805556</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A6R11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.5158055556</Latitude>
+                    <Longitude>140.5545</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>AA631</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.6055277778</Latitude>
+                    <Longitude>184.008861111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>AA632</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7463055556</Latitude>
+                    <Longitude>140.641361111</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>PHLOX</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7657222222</Latitude>
+                    <Longitude>140.379472222</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34R">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>BOXER</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8702777778</Latitude>
+                    <Longitude>140.331</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4R21</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9248333333</Latitude>
+                    <Longitude>140.291444444</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4R22</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9595833333</Latitude>
+                    <Longitude>140.363916667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4R23</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9441111111</Latitude>
+                    <Longitude>140.437416667</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>A4R24</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8708888889</Latitude>
+                    <Longitude>140.446</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>PHLOX</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7657222222</Latitude>
+                    <Longitude>140.379472222</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <RunwayTransition Runway="34L">
+                <RwyTr_Waypoint ID="1">
+                    <Name>(600)</Name>
+                    <Type>ConstHdgtoAlt</Type>
+                    <Latitude>0.000000</Latitude>
+                    <Longitude>0.000000</Longitude>
+                    <Speed>0</Speed>
+                    <Altitude>600</Altitude>
+                    <AltitudeCons>0</AltitudeCons>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                    <Hdg_Crs>1</Hdg_Crs>
+                    <Hdg_Crs_value>337</Hdg_Crs_value>
+                    <Sp_Turn>Auto</Sp_Turn>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="2">
+                    <Name>ARIES</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9353833333</Latitude>
+                    <Longitude>140.251633333</Longitude>
+                    <Altitude>4000</Altitude>
+                    <AltitudeRestriction>above</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="3">
+                    <Name>A4L11</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9876666667</Latitude>
+                    <Longitude>140.213638889</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="4">
+                    <Name>A4L12</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0423888889</Latitude>
+                    <Longitude>140.279666667</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="5">
+                    <Name>A4L13</Name>
+                    <Type>Normal</Type>
+                    <Latitude>36.0435277778</Latitude>
+                    <Longitude>140.43325</Longitude>
+                    <Altitude>7000</Altitude>
+                    <AltitudeRestriction>below</AltitudeRestriction>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="6">
+                    <Name>A4L14</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.9938333333</Latitude>
+                    <Longitude>140.534722222</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="7">
+                    <Name>PEGAS</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.8573055556</Latitude>
+                    <Longitude>140.550583333</Longitude>
+                </RwyTr_Waypoint>
+                <RwyTr_Waypoint ID="8">
+                    <Name>PHLOX</Name>
+                    <Type>Normal</Type>
+                    <Latitude>35.7657222222</Latitude>
+                    <Longitude>140.379472222</Longitude>
+                </RwyTr_Waypoint>
+            </RunwayTransition>
+            <Sid_Waypoint ID="1">
+                <Name>TETRA</Name>
+                <Type>Normal</Type>
+                <Latitude>35.7739916667</Latitude>
+                <Longitude>140.265494444</Longitude>
+                <Altitude>12000</Altitude>
+                <AltitudeRestriction>above</AltitudeRestriction>
+            </Sid_Waypoint>
+        </Sid>
+    </Airport>
+</ProceduresDB>
