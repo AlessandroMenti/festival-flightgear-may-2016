@@ -309,7 +309,7 @@
         <restriction position="ARIES" notbelow="4000ft" />
         <restriction position="A4L13" notabove="7000ft" />
         <restriction position="RJAA-RW34R" notbelow="600ft" />
-        <restriction position="A4L23" notabove="7000ft" />
+        <restriction position="A4R23" notabove="7000ft" />
     </route>
     <!-- Approach procedures -->
     <route name="ILS 34L" color="255,242,0">
